@@ -84,16 +84,16 @@ gcloud compute disks create mongo-db-disk \
 ```bash
 cd k8s
 ```
-Upload following YAML files:
-[employeeInfo-app-configmap.yml]
-[employeeInfo-app-deployment.yml]
-[employeeInfo-app-service.yml]
-[ingress.yml]
-[mongo-db-deployment.yml]
-[mongo-db-pv.yml]
-[mongo-db-pvc.yml]
-[mongo-db-secrets.yml]
-[mongo-db-service.yml]
+Upload following YAML files:\
+[employeeInfo-app-configmap.yml]\
+[employeeInfo-app-deployment.yml]\
+[employeeInfo-app-service.yml]\
+[ingress.yml]\
+[mongo-db-deployment.yml]\
+[mongo-db-pv.yml]\
+[mongo-db-pvc.yml]\
+[mongo-db-secrets.yml]\
+[mongo-db-service.yml]\
 [mongo-db-storage.yml]
 
 ### 6. Create secrets
