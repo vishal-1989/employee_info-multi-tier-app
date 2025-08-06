@@ -3,7 +3,7 @@
 This assignment demonstrates:\
     1. Developing simple multi-tier application (Node.js API + MongoDB)\
     2. Containerize the application using Docker and push on Docker Hub\
-    3. Deploy the application on **Google Kubernetes Engine (GKE)**.\
+    3. Deploy the application on **Google Kubernetes Engine (GKE)**.
 
 ---
 
@@ -28,26 +28,26 @@ This assignment demonstrates:\
 
 ---
 
-## 🧰 File Structure
+## 🧰 File Structure\
 
-employee_info-multi-tier-app/
-│
-├── app/
-│   ├── index.js
-│   ├── package.json
-│   └── Dockerfile
-│
-├── k8s/
-│   ├── employeeInfo-app-configmap.yml
-│   ├── employeeInfo-app-deployment.yml
-│   ├── employeeInfo-app-service.yml
-│   ├── ingress.yml
-│   ├── mongo-db-deployment.yml
-│   ├── mongo-db-pv.yml
-│   ├── mongo-db-secrets.yml
-│   ├── mongo-db-service.yml
-│   └── mongo-db-storage.yml
-│
+employee_info-multi-tier-app/\
+│\
+├── app/\
+│   ├── index.js\
+│   ├── package.json\
+│   └── Dockerfile\
+│\
+├── k8s/\
+│   ├── employeeInfo-app-configmap.yml\
+│   ├── employeeInfo-app-deployment.yml\
+│   ├── employeeInfo-app-service.yml\
+│   ├── ingress.yml\
+│   ├── mongo-db-deployment.yml\
+│   ├── mongo-db-pv.yml\
+│   ├── mongo-db-secrets.yml\
+│   ├── mongo-db-service.yml\
+│   └── mongo-db-storage.yml\
+│\
 └── README.md
 
 ---
