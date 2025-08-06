@@ -52,6 +52,14 @@ employee_info-multi-tier-app/\
 
 ---
 
+## Deliverables
+GitHub URL: https://github.com/vishal-1989/employee_info-multi-tier-app.git\
+Docker URL: https://hub.docker.com/repository/docker/vishalagg90/employeeinfo-app/general\
+Service tier API URL: http://34.100.218.62/employeesInfo
+Recording: 
+
+---
+
 ## ⚙️ Step-by-Step Setup
 
 ### 1. Clone This Repo
