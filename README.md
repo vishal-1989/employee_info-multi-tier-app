@@ -1,4 +1,4 @@
-# 🏗️ Employee Info Multi-Tier Application Containerization on Docker and Deployment on GKE\
+# 🏗️ Employee Info Multi-Tier Application Containerization on Docker and Deployment on GKE
 
 This assignment demonstrates:\
     1. Developing simple multi-tier application (Node.js API + MongoDB)\
