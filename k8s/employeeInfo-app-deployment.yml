@@ -1,0 +1,42 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: employeeinfo-app
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: employeeinfo-app
+  strategy:
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        app: employeeinfo-app
+    spec:
+      containers:
+        - name: employeeinfo-app
+          image: vishalagg90/employeeinfo-app:v3
+          ports:
+            - containerPort: 3000
+          env:
+            - name: DB_URI
+              valueFrom:
+                configMapKeyRef:
+                  name: employeeinfo-app-config
+                  key: DB_URI
+            - name: DB_NAME
+              valueFrom:
+                configMapKeyRef:
+                  name: employeeinfo-app-config
+                  key: DB_NAME
+            - name: DB_MAX_POOL_SIZE
+              valueFrom:
+                configMapKeyRef:
+                  name: employeeinfo-app-config
+                  key: DB_MAX_POOL_SIZE
+            - name: PORT
+              valueFrom:
+                configMapKeyRef:
+                  name: employeeinfo-app-config
+                  key: PORT
