@@ -1,9 +1,9 @@
 # 🏗️ Employee Info Multi-Tier Application Containerization on Docker and Deployment on GKE
 
-This assignment demonstrates:
-    1. Developing simple multi-tier application (Node.js API + MongoDB)
-    2. Containerize the application using Docker and push on Docker Hub
-    3. Deploy the application on **Google Kubernetes Engine (GKE)**.
+This assignment demonstrates
+	1. Developing simple multi-tier application (Node.js API + MongoDB)
+ 	2. Containerize the application using Docker and push on Docker Hub
+  	3. Deploy the application on **Google Kubernetes Engine (GKE)**.
 
 ---
 
