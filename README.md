@@ -73,7 +73,7 @@ cd employee_info-multi-tier-app
 ```bash
 cd app
 docker build -t vishalagg90/employeeinfo-app:v3 .
-docker push vishalagg90/employeeinfo-app:v2
+docker push vishalagg90/employeeinfo-app:v3
 ```
 
 ### 3. Create GKE autopilot cluster
