@@ -56,8 +56,8 @@ employee_info-multi-tier-app/
 
 ### 1. Clone This Repo
 ```bash
-git clone https://github.com/your-username/gke-multitier-app.git
-cd gke-multitier-app
+git clone https://github.com/vishal-1989/employee_info-multi-tier-app.git
+cd employee_info-multi-tier-app
 ```
 
 ### 2. Build and push docker image
